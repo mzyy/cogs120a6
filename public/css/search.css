@@ -1,8 +1,8 @@
 .search{
     position: absolute;
-    width: 50%;
-    height: 70px;
-    left: 25%;
+    width: 74%;
+    height: 5%;
+    left: 13%;
     top: 10%;
 
     background: #FFFFFF;
@@ -13,15 +13,15 @@
     /* Search a word */
 
     position: absolute;
-    width: 216px;
+    width: 50%;
     height: 37px;
-    left: 10%;
-    top: 25%;
+    left: 5%;
+    top: 5%;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 240%;
+    font-size: 120%;
     line-height: 28px;
 
     color: #000000;
@@ -32,13 +32,13 @@
     position: absolute;
     width: 50%;
     height: 37px;
-    left: 37%;
-    top: 25%;
+    left: 20%;
+    top: 23%;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 500%;
+    font-size: 300%;
     line-height: 28px;
 
     color: #000000;
@@ -46,15 +46,15 @@
 .searchedTimes{
     /* you have searhced it for 30 times! */
     position: absolute;
-    width: 50%;
+    width: 60%;
     height: 32px;
-    left: 35%;
-    top: 30%;
+    left: 20%;
+    top: 28%;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 120%;
+    font-size: 70%;
     line-height: 16px;
 
     color: #000000;
@@ -62,9 +62,9 @@
 .content{
     /* Rectangle 19 */
     position: absolute;
-    width: 74%;
+    width: 80%;
     height: 50%;
-    left: 13%;
+    left: 10%;
     top: 45%;
 
     background: #FFFFFF;
@@ -76,26 +76,53 @@
     width: 80%;
     height: 208px;
     left: 10%;
-    top: 5%;
+    top: 1%;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 250%;
-    line-height: 150%;
+    font-size: 100%;
+    line-height: 100%;
 
     color: #000000;
 }
 .addCol{
     position: absolute;
-    width: 70%;
-    height: 6%;
-    left: 15%;
+    width: 50%;
+    height: 5%;
+    left: 25%;
     top: 37%;
 
     background: #C4C4C4;
     border-radius: 20px;
-    font-size: 30px;
+    font-size: 100%;
+}
+.gg-close-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 40px
+}
+.gg-close-o::after,
+.gg-close-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    background: currentColor;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    top: 8px;
+    left: 3px
+}
+.gg-close-o::after {
+    transform: rotate(-45deg)
 }
 .back{
     position: absolute;
@@ -103,12 +130,6 @@
     height: 3%;
     left: 2%;
     top: 1%;
-}
-
-.share{
-    position: absolute;
-    right: 5%;
-    top: 45%;
 }
 
 .gg-close-o {
@@ -137,38 +158,4 @@
 }
 .gg-close-o::after {
     transform: rotate(-45deg)
-}
-
-.gg-share {
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    transform: scale(var(--ggs,1));
-    width: 6px;
-    height: 6px;
-    background: currentColor;
-    border-radius: 100px;
-    box-shadow:
-        10px -6px 0,
-        10px 6px 0
-}
-.gg-share::after,
-.gg-share::before {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    border-radius: 3px;
-    width: 10px;
-    height: 2px;
-    background: currentColor;
-    left: 2px
-}
-.gg-share::before {
-    top: 0;
-    transform: rotate(-35deg)
-}
-.gg-share::after {
-    bottom: 0;
-    transform: rotate(35deg)
 }

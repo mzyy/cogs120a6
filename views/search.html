@@ -9,9 +9,9 @@
 	<style>
 		.search{
 			position: absolute;
-			width: 50%;
-			height: 70px;
-			left: 25%;
+			width: 74%;
+			height: 5%;
+			left: 13%;
 			top: 10%;
 
 			background: #FFFFFF;
@@ -22,15 +22,15 @@
 			/* Search a word */
 
 			position: absolute;
-			width: 216px;
+			width: 50%;
 			height: 37px;
-			left: 10%;
-			top: 25%;
+			left: 5%;
+			top: 5%;
 
 			font-family: Roboto;
 			font-style: normal;
 			font-weight: normal;
-			font-size: 240%;
+			font-size: 120%;
 			line-height: 28px;
 
 			color: #000000;
@@ -41,13 +41,13 @@
 			position: absolute;
 			width: 50%;
 			height: 37px;
-			left: 35%;
+			left: 20%;
 			top: 25%;
 
 			font-family: Roboto;
 			font-style: normal;
 			font-weight: normal;
-			font-size: 500%;
+			font-size: 300%;
 			line-height: 28px;
 
 			color: #000000;
@@ -55,15 +55,15 @@
 		.searchedTimes{
 			/* you have searhced it for 30 times! */
 			position: absolute;
-			width: 50%;
+			width: 60%;
 			height: 32px;
-			left: 35%;
+			left: 20%;
 			top: 30%;
 
 			font-family: Roboto;
 			font-style: normal;
 			font-weight: normal;
-			font-size: 120%;
+			font-size: 70%;
 			line-height: 16px;
 
 			color: #000000;
@@ -71,10 +71,10 @@
 		.content{
 			/* Rectangle 19 */
 			position: absolute;
-			width: 74%;
+			width: 70%;
 			height: 50%;
-			left: 13%;
-			top: 45%;
+			left: 15%;
+			top: 50%;
 
 			background: #FFFFFF;
 			border: 5px solid #848383;
@@ -82,29 +82,29 @@
 		}
 		.explanation{
 			position: absolute;
-			width: 414px;
+			width: 80%;
 			height: 208px;
-			left: 15%;
+			left: 10%;
 			top: 1%;
 
 			font-family: Roboto;
 			font-style: normal;
 			font-weight: normal;
-			font-size: 250%;
+			font-size: 100%;
 			line-height: 100%;
 
 			color: #000000;
 		}
 		.addCol{
 			position: absolute;
-			width: 70%;
-			height: 6%;
-			left: 15%;
+			width: 50%;
+			height: 5%;
+			left: 25%;
 			top: 37%;
 
 			background: #C4C4C4;
 			border-radius: 20px;
-			font-size: 30px;
+			font-size: 100%;
 		}
 		.gg-close-o {
 			box-sizing: border-box;
@@ -137,7 +137,8 @@
 </head>
 
 <body>
-	<i class="gg-close-o"></i>
+	<div class='back'><i class="gg-close-o"></i></div>
+	
     <div class='search'>
         <div class='searchText'>Fantastic</div>
     </div>
@@ -149,6 +150,7 @@
 
 	<button class='addCol'>
 		Add to my collection
+		<div class='share'><i class="gg-share"></i></div>
 	</button>
 
 	<div class='content'>
@@ -157,6 +159,9 @@
 			<p>2. Fanciful or capricious, as persons or their ideas or actions;</p>
 		</div>
 	</div>
-    
+
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/test.js"></script>
 </body>
 </html>
