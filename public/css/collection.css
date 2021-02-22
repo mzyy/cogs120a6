@@ -1,0 +1,29 @@
+.words{
+    position: relative;
+    max-width: 80%;
+    height: 10%;
+    left: 10%;
+
+    background: #929292;
+    border-radius: 20px;
+}
+
+.word{
+    position: relative;
+    max-width: 70%;
+    top: 20%;
+    left: 5%;
+    font-size: 150%;
+}
+
+.colContainer{
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    left: 5%;
+    top: 20%;
+
+    background: #ffffff;
+    border-radius: 5px solid black;
+    box-sizing: border-box;
+}

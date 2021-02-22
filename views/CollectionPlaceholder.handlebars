@@ -6,6 +6,7 @@
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/placeholder.css" rel="stylesheet">
+	<link href="/css/collection.css" rel="stylesheet">
 </head>
 
 <body>
@@ -13,9 +14,14 @@
 		<i class="gg-close-o"></i>
 	</div>
 
-    <div class="content">
-		This is a placeholder page for collections
+	<div class="colContainer">
+		{{#each words}}
+			<div class="words" id={{word}}>
+				<h4 class="word">{{word}}</h4>
+			</div>
+		{{/each}}
 	</div>
+    
 
 	<script src="js/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>
