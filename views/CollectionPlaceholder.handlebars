@@ -14,7 +14,13 @@
 		<i class="gg-close-o"></i>
 	</div>
 
-	<div class="colContainer">
+	<select class='select'>
+		{{#each collections}}
+			<option value={{id}}>{{name}}</option>
+		{{/each}}
+	</select>
+
+	<div class="colContainer" style="float">
 		{{#each words}}
 			<div class="words" id={{word}}>
 				<h4 class="word">{{word}}</h4>

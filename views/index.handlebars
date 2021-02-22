@@ -11,42 +11,30 @@
 
 <body>
 
-	<form action="/search" class = 'form'>
-	  <label for="fname">Which word you want to learn today?</label><br>
-	  <input type="text" id="word" name="fname" value="Fantastic"><br>
-	   <input type="submit" value="Search">
-	</form>
+	<div class="container">
+		<form action = '/search' class = 'form'>
+			<label for="fname">Which word you want to learn today?</label><br>
+			<input type="text" id="word" name='word' placeholder="Type in the word you want to search"><br>
+			<input type="submit" value="Search">
+		</form>
 
-	<button class='profile'>
-		<p class='text'>My Profile</p>
-	</button>
+		<button class='profile'>
+			<p class='text'>My Profile</p>
+		</button>
 
-	<button class='collection'>
-		<p class='text'>My Collection</p>
-	</button>
+		<button class='collection'>
+			<p class='text'>My Collection</p>
+		</button>
 
-	<button class='group'>
-		<p class='text'>My Group</p>
-	</button>
+		<button class='group'>
+			<p class='text'>My Group</p>
+		</button>
+	</div>
+
+	
 
 	<script src="js/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/test.js"></script>
-	<script>
-		const settings = {
-			"async": true,
-			"crossDomain": true,
-			"url": "https://twinword-word-graph-dictionary.p.rapidapi.com/examhistory/?entry=mask",
-			"method": "GET",
-			"headers": {
-				"x-rapidapi-key": "1db4c8f7e1msh630a5ef79301c90p19a55bjsn4e6d426ef3c4",
-				"x-rapidapi-host": "twinword-word-graph-dictionary.p.rapidapi.com"
-			}
-		};
-
-		$.ajax(settings).done(function (response) {
-			console.log(response);
-		});
-	</script>
 </body>
 </html>

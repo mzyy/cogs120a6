@@ -27,3 +27,13 @@
     border-radius: 5px solid black;
     box-sizing: border-box;
 }
+
+.select{
+    position: absolute;
+    width: 60%;
+    height: 5%;
+    left: 20%;
+    top: 15%;
+    background: #929292;
+    border-radius: 5px;
+}
