@@ -1,3 +1,7 @@
 exports.view = function(req, res){
-    res.render('search');
+    var word = req.query.word;
+    var data = {
+      "word": word
+    }
+    res.render('search', data);
 };
