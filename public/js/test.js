@@ -10,31 +10,26 @@ function initializePage() {
 }
 
 function backClick(e) {
-    // prevent the page from reloading
     window.location.href='/';
 }
 
 function CollectionClick(e) {
-    // prevent the page from reloading
     window.location.href='CPH';
 }
 
 function ProfileClick(e) {
-    // prevent the page from reloading
     window.location.href='PPH';
 }
 
 function SearchClick(e) {
-    // prevent the page from reloading
     window.location.href='search';
 }
 
 function GroupClick(e) {
-    // prevent the page from reloading
     window.location.href='GPH';
 }
 
-function searchWord(e) {
+function searchWord(req, res) {
     word = req.query.word;
     const settings = {
       "async": true,
@@ -50,5 +45,5 @@ function searchWord(e) {
     $.ajax(settings).done(function(response) {
       console.log(response);
     });
-}
+  }
 
