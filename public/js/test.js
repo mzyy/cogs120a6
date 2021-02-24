@@ -14,7 +14,7 @@ function initializePage() {
 	$(".achievement").click(Achievementlick);
 	$(".record").click(RecordClick);
 	$(".settings").click(SettingsClick);
-
+    $(".words").click(collectionSearch);
 }
 
 function backClick(e) {
@@ -65,4 +65,9 @@ function SettingsClick(e) {
 function ProfileGroupClick(e){
 	// prevent the page from reloading
     window.location.href='APH';
+}
+
+function collectionSearch(e){
+    var word = $(this).text();
+    window.location.href='search?word='+word;
 }
