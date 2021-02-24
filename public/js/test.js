@@ -18,7 +18,7 @@ function initializePage() {
 }
 
 function backClick(e) {
-    window.location.href='/';
+    window.history.go(-1);
 }
 
 function backProfileClick(e) {
