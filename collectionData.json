@@ -2,86 +2,18 @@
     "collections": [
         {
             "name": "Collection 1",
-            "id" : 1
+            "id" : 1,
+            "wordNum" : 20
         },
         {
             "name": "Collection 2",
-            "id" : 2
+            "id" : 2,
+            "wordNum" : 35
         },
         {
             "name": "Collection 3",
-            "id" : 3
-        }
-    ],
-    "words": [
-        {
-            "word": "adjust",
-            "count" : 1
-        },
-        {
-            "word": "cause",
-            "count" : 1
-        },
-        {
-            "word": "we",
-            "count" : 1
-        },
-        {
-            "word": "class",
-            "count" : 1
-        },
-        {
-            "word": "adjust",
-            "count" : 1
-        },
-        {
-            "word": "cause",
-            "count" : 1
-        },
-        {
-            "word": "we",
-            "count" : 1
-        },
-        {
-            "word": "class",
-            "count" : 1
-        },
-        {
-            "word": "adjust",
-            "count" : 1
-        },
-        {
-            "word": "cause",
-            "count" : 1
-        },
-        {
-            "word": "we",
-            "count" : 1
-        },
-        {
-            "word": "class",
-            "count" : 1
-        },
-        {
-            "word": "adjust",
-            "count" : 1
-        },
-        {
-            "word": "cause",
-            "count" : 1
-        },
-        {
-            "word": "we",
-            "count" : 1
-        },
-        {
-            "word": "class",
-            "count" : 1
-        },
-        {
-            "word": "ucsd",
-            "count" : 1
+            "id" : 3,
+            "wordNum" : 108
         }
     ]
-
 }

@@ -19,7 +19,7 @@
 .selects{
     position: relative;
     max-width: 80%;
-    height: 10%;
+    height: 20%;
     left: 10%;
 
     background: #929292;
@@ -30,8 +30,16 @@
     position: relative;
     max-width: 70%;
     top: 20%;
-    left: 20%;
+    left: 5%;
     font-size: 150%;
+}
+
+.wordNum{
+    position: absolute;
+    max-width: 70%;
+    top: 70%;
+    right: 5%;
+    font-size: 100%;
 }
 
 .colContainer{
