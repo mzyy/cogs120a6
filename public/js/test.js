@@ -18,6 +18,7 @@ function initializePage() {
     $(".words").click(collectionSearch);
     $(".select").click(collectionSelecter);
     $(".logout").click(logOut);
+    $(".addCol").click(addCOl);
 }
 
 function backClick(e) {
@@ -87,4 +88,8 @@ function collectionSelecter(e){
     e.preventDefault();
     var col = $(this).text();
     window.location.href=col;
+}
+
+function addCOl(e){
+    window.location.href='/addCol';
 }

@@ -188,3 +188,13 @@ input[type=submit]:hover {
 body{
     background-color: #ddffe7;
  }
+
+.colAdded{
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    left: 25%;
+    top: 37%;
+    text-align: center;
+    font-size: 150%;
+}
