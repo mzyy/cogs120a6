@@ -9,11 +9,11 @@
 </head>
 
 <body>
-	<div class='back'><i class="gg-close-o"></i></div>
+	<div class='close'><i class="gg-close-o"></i></div>
 	
-    <div class='search'>
-        <div class='searchText' id='Searchword'>{{word}}</div>
-    </div>
+	<form action = '/search' class = 'search'>
+			<input type="text" id="word" name='word' placeholder="Type in the word you want to search"><br>
+	</form>
 
 	<div>
 		<div class='displayText'>{{word}}</div>
