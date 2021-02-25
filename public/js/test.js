@@ -5,6 +5,7 @@ $(document).ready(function() {
 function initializePage() {
 	//in main page
 	$(".back").click(backClick);
+    $(".close").click(closeClick);
     $(".profile").click(ProfileClick);
     $(".collection").click(CollectionClick);
     $(".group").click(GroupClick);
@@ -19,6 +20,10 @@ function initializePage() {
 
 function backClick(e) {
     window.history.go(-1);
+}
+
+function closeClick(e){
+    window.location.href='/';
 }
 
 function backProfileClick(e) {

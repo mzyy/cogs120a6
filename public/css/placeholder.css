@@ -12,6 +12,14 @@
     top: 1%;
 }
 
+.close{
+    position: absolute;
+    width: 3%;
+    height: 3%;
+    left: 2%;
+    top: 1%;
+}
+
 .gg-close-o {
     box-sizing: border-box;
     position: relative;
