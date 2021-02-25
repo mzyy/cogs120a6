@@ -5,7 +5,7 @@
     left: 13%;
     top: 8%;
 
-    background: #FFFFFF;
+    background-color: #ddffe7;
 }
 
 input[type=text], select {
@@ -13,7 +13,7 @@ input[type=text], select {
     padding: 12px 20px;
     margin: 10px 0;
     display: inline-block;
-    border: 3px solid #ccc;
+    border: 3px solid #2f5e5b;
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -91,7 +91,7 @@ input[type=submit]:hover {
     top: 45%;
 
     background: #FFFFFF;
-    border: 5px solid #848383;
+    border: 5px solid #2f5e5b;
     box-sizing: border-box;
 }
 .explanation{
@@ -116,8 +116,9 @@ input[type=submit]:hover {
     left: 25%;
     top: 37%;
 
-    background: #C4C4C4;
+    background: #98D7C2;
     border-radius: 20px;
+    border-color: #2f5e5b;
     font-size: 100%;
 }
 .gg-close-o {
@@ -147,12 +148,13 @@ input[type=submit]:hover {
 .gg-close-o::after {
     transform: rotate(-45deg)
 }
-.back{
+.close{
     position: absolute;
     width: 3%;
     height: 3%;
     left: 2%;
     top: 1%;
+    color: #324b43;
 }
 
 .gg-close-o {
@@ -182,3 +184,7 @@ input[type=submit]:hover {
 .gg-close-o::after {
     transform: rotate(-45deg)
 }
+
+body{
+    background-color: #ddffe7;
+ }

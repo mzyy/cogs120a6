@@ -17,6 +17,7 @@ function initializePage() {
 	$(".settings").click(SettingsClick);
     $(".words").click(collectionSearch);
     $(".select").click(collectionSelecter);
+    $(".logout").click(logOut);
 }
 
 function backClick(e) {
@@ -76,6 +77,10 @@ function ProfileGroupClick(e){
 function collectionSearch(e){
     var word = $(this).text();
     window.location.href='./search?word='+word;
+}
+
+function logOut(e){
+    window.location.href='/';
 }
 
 function collectionSelecter(e){
