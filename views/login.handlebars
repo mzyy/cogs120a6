@@ -1,0 +1,67 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+	<title> Login Page </title> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/css/login.css" rel="stylesheet">
+	<title>Vocabulary Notebook</title>
+</head>
+<style>
+	Body {  
+  font-family: Calibri, Helvetica, sans-serif; 
+	}  
+	button {     
+       width: 100%;    
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+	 input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: auto;  
+        padding: 12px 20px;         
+        box-sizing: border-box;   
+    } 
+	 input[type=text], input[type=username] {   
+        width: 100%;   
+            padding: 12px 20px;   
+        display: inline-block;      
+        box-sizing: border-box;   
+    }   
+	
+	</style>
+<body>
+    <P id = "login">
+        <center><h1>Log into Your Vocabulary Notebook</h1></center>
+    <form action = '/login' class = 'form'>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="username" placeholder="Enter Username" name="username" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>     
+            <button type="submit">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me</br>    
+             Forgot <a href="#"> password? </a> </br>
+             Don't have an account? <a href="Createaccount"> Create </a> one right now </br>  
+             
+        </div>   
+    </form> 
+        
+    </P>
+
+  </body>
+	</div>
+
+	
+
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/test.js"></script>
+</body>
+</html>
+
