@@ -16,7 +16,7 @@ function initializePage() {
 	$(".record").click(RecordClick);
 	$(".settings").click(SettingsClick);
     $(".words").click(collectionSearch);
-    $(".selects").click(collectionSelecter);
+    $(".select").click(collectionSelecter);
 }
 
 function backClick(e) {
@@ -79,6 +79,7 @@ function collectionSearch(e){
 }
 
 function collectionSelecter(e){
+    e.preventDefault();
     var col = $(this).text();
     window.location.href=col;
 }

@@ -28,8 +28,18 @@
 
 .select{
     position: relative;
+    max-width: 100%;
+    height: 70%;
+    font-size: 150%;
+
+    background: #aaa8a8;
+    border-radius: 20px;
+}
+
+.names{
+    position: absolute;
     max-width: 70%;
-    top: 20%;
+    top: 5%;
     left: 5%;
     font-size: 150%;
 }

@@ -17,9 +17,12 @@
     <div class="colContainer" style="float">
 		{{#each collections}}
 			<div class="selects" id='colSel'>
-				<h4 class="select">{{name}}</h4>
+                <div class="select" id='colName'>
+                    <h4 class='names'>{{name}}</h4>
+                </div>
                 <p class="wordNum">This collection has {{wordNum}} words</p>
-			</div>
+            </div>
+            
 		{{/each}}
 	</div>
 
