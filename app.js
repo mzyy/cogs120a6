@@ -16,6 +16,7 @@ var APH = require('./routes/AccountPH');
 var AchPH = require('./routes/AchievementPH');
 var RPH = require('./routes/RecordPH');
 var SPH = require('./routes/SettingsPH');
+var colS = require('./routes/colselecter')
 // Example route
 // var user = require('./routes/user');
 
@@ -44,8 +45,9 @@ if ('development' == app.get('env')) {
 app.get('/', index.view);
 // Example route
 // app.get('/users', user.list);
+app.get('/collections', colS.view);
 app.get('/search', search.view);
-app.get('/CPH', CPH.view);
+app.get('/:name', CPH.view);
 app.get('/PPH', PPH.view);
 app.get('/GPH', GPH.view);
 app.get('/APH', APH.view);

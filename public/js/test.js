@@ -16,6 +16,7 @@ function initializePage() {
 	$(".record").click(RecordClick);
 	$(".settings").click(SettingsClick);
     $(".words").click(collectionSearch);
+    $(".selects").click(collectionSelecter);
 }
 
 function backClick(e) {
@@ -32,7 +33,7 @@ function backProfileClick(e) {
 }
 
 function CollectionClick(e) {
-    window.location.href='CPH';
+    window.location.href='collections';
 }
 
 function ProfileClick(e) {
@@ -74,5 +75,10 @@ function ProfileGroupClick(e){
 
 function collectionSearch(e){
     var word = $(this).text();
-    window.location.href='search?word='+word;
+    window.location.href='./search?word='+word;
+}
+
+function collectionSelecter(e){
+    var col = $(this).text();
+    window.location.href=col;
 }

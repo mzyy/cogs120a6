@@ -16,6 +16,24 @@
     font-size: 150%;
 }
 
+.selects{
+    position: relative;
+    max-width: 80%;
+    height: 10%;
+    left: 10%;
+
+    background: #929292;
+    border-radius: 20px;
+}
+
+.select{
+    position: relative;
+    max-width: 70%;
+    top: 20%;
+    left: 20%;
+    font-size: 150%;
+}
+
 .colContainer{
     position: absolute;
     width: 90%;
@@ -26,14 +44,4 @@
     background: #ffffff;
     border-radius: 5px solid black;
     box-sizing: border-box;
-}
-
-.select{
-    position: absolute;
-    width: 60%;
-    height: 5%;
-    left: 20%;
-    top: 15%;
-    background: #929292;
-    border-radius: 5px;
 }
