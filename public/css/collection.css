@@ -19,10 +19,11 @@
 .selects{
     position: relative;
     max-width: 80%;
-    height: 20%;
+    height: 25%;
+    top: 5%;
     left: 10%;
 
-    background: #929292;
+    background: #dddddd;
     border-radius: 20px;
 }
 

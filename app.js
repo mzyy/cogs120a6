@@ -47,13 +47,13 @@ app.get('/', index.view);
 // app.get('/users', user.list);
 app.get('/collections', colS.view);
 app.get('/search', search.view);
-app.get('/:name', CPH.view);
 app.get('/PPH', PPH.view);
 app.get('/GPH', GPH.view);
 app.get('/APH', APH.view);
 app.get('/AchPH', AchPH.view);
 app.get('/RPH', RPH.view);
 app.get('/SPH', SPH.view);
+app.get('/:name', CPH.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
