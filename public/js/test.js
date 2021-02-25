@@ -24,7 +24,7 @@ function backClick(e) {
 }
 
 function closeClick(e){
-    window.location.href='/';
+    window.location.href='/main';
 }
 
 function backProfileClick(e) {
