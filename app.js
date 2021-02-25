@@ -18,6 +18,7 @@ var RPH = require('./routes/RecordPH');
 var SPH = require('./routes/SettingsPH');
 var colS = require('./routes/colselecter');
 var login = require('./routes/login');
+var addCol = require('./routes/addCol');
 // Example route
 // var user = require('./routes/user');
 
@@ -55,7 +56,9 @@ app.get('/APH', APH.view);
 app.get('/AchPH', AchPH.view);
 app.get('/RPH', RPH.view);
 app.get('/SPH', SPH.view);
+app.get('/addCol', addCol.view)
 app.get('/:name', CPH.view);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

@@ -4,7 +4,7 @@
     height: 10%;
     left: 10%;
 
-    background: #929292;
+    background: #98D7C2;
     border-radius: 20px;
 }
 
@@ -76,4 +76,12 @@ p{
 
 h4{
     color: white;
+}
+
+.word:hover{
+    background-color: #29A0B1;
+}
+
+.select:hover{
+    background-color: #29A0B1;
 }
