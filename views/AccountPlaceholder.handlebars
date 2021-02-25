@@ -6,6 +6,10 @@
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/placeholder.css" rel="stylesheet">
+
+	{{> facebook}}
+	<script src="public/js/facebook.js"></script>
+
 </head>
 
 <body>
@@ -14,7 +18,13 @@
 	</div>
 
     <div class="content">
-		This is a placeholder page for account
+		<p> Change Password </p>
+		<p> Change Username </p>
+		<p class="facebookLogin">
+			Login through Facebook
+			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+			</fb:login-button>
+		</p>
 	</div>
 
     <script src="js/jquery-1.11.0.js"></script>
