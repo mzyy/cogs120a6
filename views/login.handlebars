@@ -8,6 +8,10 @@
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="/css/placeholder.css" rel="stylesheet">
+
+    {{> facebook}}
+    <script src="public/js/facebook.js"></script>
+
 	<title>Vocabulary Notebook</title>
 </head>
 <style>
@@ -51,8 +55,12 @@
             <input type="password" placeholder="Enter Password" name="password" required>
             <button type="submit">Login</button>
             <input type="checkbox" checked="checked"> Remember me</br>
-             Forgot <a href="#"> password? </a> </br>
-             Don't have an account? <a href="Createaccount"> Create </a> one right now </br>
+            <a href="#">Forgot password </a> </br>
+             <p class="facebookLogin">
+                 <a href="Createaccount"> Signup </a> or login through Facebook
+     			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+     			</fb:login-button>
+     		</p>
 
         </div>
     </form>
