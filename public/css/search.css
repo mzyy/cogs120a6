@@ -55,8 +55,10 @@ input[type=submit]:hover {
 .displayText{
     /* Search a word */
     position: absolute;
-
+    text-align:center;
     top: 23%;
+    left: 10%;
+    width: 80%;
 
     font-family: Roboto;
     font-style: normal;

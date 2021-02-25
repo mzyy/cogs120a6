@@ -12,7 +12,7 @@
 	<div class='close'><i class="gg-close-o"></i></div>
 	
 	<form action = '/search' class = 'search'>
-			<input type="text" id="word" name='word' placeholder="Type in the word you want to search"><br>
+		<input type="text" id="word" name='word' placeholder="Type in the word you want to search"><br>
 	</form>
 
 	<div>
@@ -52,11 +52,17 @@
 			
 		$.ajax(settings).done(function(response) {
 			console.log(response);
-			var htmlDetail =
-    		'<p>' + response.meaning['noun'] + '</p>' +
-			'<p>' + response.meaning['adjective'] + '</p>' +
-			'<p>' + response.meaning['adverb'] + '</p>' +
-			'<p>' + response.meaning['verb'] + '</p>';
+			if(response.result_msg == "Entry word not found"){
+				var htmlDetail = '<p>Word not found</p>'
+			}
+			else{
+				var htmlDetail =
+				'<p>' + response.meaning['noun'] + '</p>' +
+				'<p>' + response.meaning['adjective'] + '</p>' +
+				'<p>' + response.meaning['adverb'] + '</p>' +
+				'<p>' + response.meaning['verb'] + '</p>';
+			}
+			
 			$('.explanation').html(htmlDetail);
 		});
 	</script>
