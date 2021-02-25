@@ -8,8 +8,8 @@
     padding: 50px;
 
     margin: auto;
-    font-size: 100%;
-    background: #898989;
+    font-size: 130%;
+    background: #98D7C2;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
 
@@ -25,8 +25,8 @@
     padding: 50px;
 
     margin: auto;
-    font-size: 100%;
-    background: #898989;
+    font-size: 130%;
+    background: #98D7C2;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
 
@@ -42,8 +42,8 @@
     padding: 50px;
 
     margin: auto;
-    font-size: 100%;
-    background: #898989;
+    font-size: 130%;
+    background: #98D7C2;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
 
@@ -54,7 +54,6 @@
     width: 80%;
     top: 40%;
     left: 10%;
-    background: #898989;
 }
 
 .form{
@@ -79,7 +78,7 @@ input[type=text], select {
 input[type=submit] {
     left: 100%;
     width: 100%;
-    background-color: #898989;
+    background-color: #98D7C2;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -89,26 +88,26 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #484848;
+  background-color: #29A0B1;
 }
 
 
 div {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #98D7C2;
   padding: 20px;
 }
 
 .profile:hover{
-    background-color: #484848;
+    background-color: #29A0B1;
 }
 
 .collection:hover{
-    background-color: #484848;
+    background-color: #29A0B1;
 }
 
 .group:hover{
-    background-color: #484848;
+    background-color: #29A0B1;
 }
 
 .container {
