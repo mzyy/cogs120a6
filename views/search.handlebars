@@ -10,7 +10,7 @@
 
 <body>
 	<div class='close'><i class="gg-close-o"></i></div>
-	
+
 	<form action = '/search' class = 'search'>
 		<input type="text" id="word" name='word' placeholder="Type in the word you want to search"><br>
 	</form>
@@ -20,7 +20,15 @@
 	</div>
 
 	<button class='addCol'>
-		Add to my collection
+		<div class="dropdown">
+			<span>Add to my collection</span>
+			<div class="dropdown-content">
+			<p>Collection 1</p>
+			<p>Collection 2</p>
+			<p>Collection 3</p>
+			</div>
+		</div>
+
 	</button>
 
 	<div class='content'>
@@ -49,7 +57,7 @@
 		};
 
 		console.log(word);
-			
+
 		$.ajax(settings).done(function(response) {
 			console.log(response);
 			if(response.result_msg == "Entry word not found"){
@@ -62,7 +70,7 @@
 				'<p>' + response.meaning['adverb'] + '</p>' +
 				'<p>' + response.meaning['verb'] + '</p>';
 			}
-			
+
 			$('.explanation').html(htmlDetail);
 		});
 	</script>

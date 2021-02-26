@@ -71,7 +71,7 @@ input[type=submit]:hover {
 .searchedTimes{
     /* you have searhced it for 30 times! */
     position: absolute;
-    
+
     top: 28%;
 
     font-family: Roboto;
@@ -197,4 +197,25 @@ body{
     top: 37%;
     text-align: center;
     font-size: 150%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content p:hover {background-color: #b2b2b2}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
