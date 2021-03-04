@@ -19,6 +19,7 @@ var SPH = require('./routes/SettingsPH');
 var colS = require('./routes/colselecter');
 var login = require('./routes/login');
 var addCol = require('./routes/addCol');
+
 // Example route
 // var user = require('./routes/user');
 
